@@ -1,0 +1,1 @@
+docker run --name myadmin -d --link mariadb:db -v /home/docker/phpmyadmin/config.user.inc.php:/etc/phpmyadmin/config.user.inc.php -p 8083:80 phpmyadmin/phpmyadmin
